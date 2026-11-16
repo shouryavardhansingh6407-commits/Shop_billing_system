@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.container {
+    padding: 25px;
+}
+
+h1 {
+    color: #26354a;
+}
+
+p {
+    color: gray;
+}
+
+.customer {
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.customer h2 {
+    color: #26354a;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.billing {
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.billing h2 {
+    color: #26354a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e6e6e6;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+    color: #26354a;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #26354a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #405a7a;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    input {
+        width: 93%;
+    }
+}

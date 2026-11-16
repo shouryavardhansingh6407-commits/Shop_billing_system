@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.container {
+    padding: 25px;
+}
+
+h1 {
+    color: #26354a;
+}
+
+p {
+    color: gray;
+}
+
+.product-form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.product-form h2 {
+    color: #26354a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #26354a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.product-list {
+    background-color: white;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.product-list h2 {
+    color: #26354a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e6e6e6;
+}
+
+.back {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.back a {
+    color: #26354a;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}

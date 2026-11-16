@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Billing System</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Dashboard</h1>
+        <p>Welcome to Shop Billing System</p>
+        
+        <div class="cards">
+            <div class="card">
+                <h3>Total Products</h3>
+                <h2 id="dash-product-count">0</h2>
+                <p>Available Products</p>
+            </div>
+            <div class="card">
+                <h3>Total Sales</h3>
+                <h2 id="dash-sales-total">₹0</h2>
+                <p>Overall Sales</p>
+            </div>
+            <div class="card">
+                <h3>Total Bills</h3>
+                <h2 id="dash-bill-count">0</h2>
+                <p>Generated Bills</p>
+            </div>
+        </div>
+
+        <div class="recent">
+            <h2>Recent Bills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bill No.</th>
+                        <th>Customer Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="recentBillsTableBody">
+                    <!-- JS fills this -->
+                </tbody>
+            </table>
+            <div class="button">
+                <button onclick="location.href='billing.html'">+ Create New Bill</button>
+                <button onclick="location.href='bill-history.html'" style="margin-left: 10px; background: #555;">History</button>
+                <button onclick="location.href='product.html'" style="margin-left: 10px; background: #555;">Products</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
